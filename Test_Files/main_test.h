@@ -5,11 +5,11 @@
 int _printf(const char *format, ...);
 
 /**
- * main - Entry point
+ * main_test - Entry point
  *
  * Return: Always 0
  */
-int main(void)
+int main_test(void)
 {
     int len;
     int len2;
@@ -44,3 +44,4 @@ int main(void)
     printf("Unknown:[%r]\n");
     return (0);
 }
+
