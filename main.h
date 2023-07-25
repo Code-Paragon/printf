@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -20,9 +21,10 @@
 
 /**
  * struct fmt - Struct op
- *
  * @fmt: The format.
  * @fn: The function associated.
+ *
+ * Description: struct used in functions
  */
 struct fmt
 {
@@ -33,9 +35,10 @@ struct fmt
 
 /**
  * typedef struct fmt fmt_t - Struct op
- *
  * @fmt: The format.
  * @fm_t: The function associated.
+ *
+ * Description: renamed fmt fmt_t
  */
 typedef struct fmt fmt_t;
 

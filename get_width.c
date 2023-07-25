@@ -34,3 +34,9 @@ int get_width(const char *format, int *i, va_list list)
 
 	return (width);
 }
+/**
+ *  It looks for either a numeric width specifier or an asterisk (*) followed
+ *  by an argument to determine the width. If a valid width specifier is found,
+ *  the function returns the calculated width value, and the index i is updated
+ *  to ensure correct parsing of the format string in the _printf function.
+ */

@@ -39,3 +39,8 @@ int get_precision(const char *format, int *i, va_list list)
 
 	return (precision);
 }
+/**
+ * if it is provided as a numeric value or as an argument in the variable
+ * arguments list using the asterisk. If no precision is specified,
+ * the function returns -1 to indicate that there is no precision for formatting.
+ */

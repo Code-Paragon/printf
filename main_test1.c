@@ -3,11 +3,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main_test1 - Entry point used to test printf funtionality
  *
  * Return: Always 0
  */
-int main(void)
+int main_test1(void)
 {
     int len;
     int len2;

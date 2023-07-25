@@ -24,3 +24,11 @@ int get_size(const char *format, int *i)
 
 	return (size);
 }
+/**
+ *  It checks for the presence of size specifiers "l" (for long)
+ *  or "h" (for short) immediately after the current position in
+ *  the format string. If a valid size specifier is found, the function
+ *  returns the corresponding size value (S_LONG or S_SHORT), and
+ *  if no valid size specifier is found, it returns 0. The index i is updated
+ *  to ensure correct parsing of the format string in the _printf function
+ */
