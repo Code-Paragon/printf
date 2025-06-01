@@ -74,7 +74,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o test_printf
 ```
 Or compile and test against provided test files.
 
-## ⚠️ Limitations
+##  Limitations
 
 - Not 100% compatible with all edge cases of the standard `printf`
 - Floating-point formats (`%f`, `%e`, `%g`) are **not implemented**
